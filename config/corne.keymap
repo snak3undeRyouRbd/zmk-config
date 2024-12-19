@@ -16,6 +16,11 @@
             bindings = <&bootloader>;
             key-positions = <38 39>;
         };
+
+        TURN_OFF {
+            bindings = <&soft_off>;
+            key-positions = <36 41>;
+        };
     };
 
     keymap {
