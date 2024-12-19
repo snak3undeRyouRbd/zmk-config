@@ -23,6 +23,15 @@
         };
     };
 
+    behaviors {
+        srv: srv {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "SRV";
+            #sensor-binding-cells = <2>;
+            bindings = <&none>, <&none>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
